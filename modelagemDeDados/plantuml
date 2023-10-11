@@ -1,0 +1,48 @@
+@startuml
+class Cliente {
+    - idCliente: int
+    - nomeCliente: String
+    - cpfCliente: String
+    - enderecoCliente: String
+    - telefoneCliente: String
+    - emailCliente: String
+    + Cliente()
+    + Cliente(int, String, String, String, String, String)
+    + getIdCliente(): int
+    + getNomeCliente(): String
+    + getCpfCliente(): String
+    + getEnderecoCliente(): String
+    + getTelefoneCliente(): String
+    + getEmailCliente(): String
+}
+
+class Pacotes_de_Interesse {
+    - idPacoteDeViagens: int
+    - destinos: String
+    - precos: double
+    - idCliente: int
+    + Pacotes_de_Interesse()
+    + Pacotes_de_Interesse(int, String, double, int)
+    + getIdPacoteDeViagens(): int
+    + getDestinos(): String
+    + getPrecos(): double
+    + getIdCliente(): int
+}
+
+class Pagamentos {
+    - idPagamento: int
+    - valorPago: double
+    - destinoPago: String
+    - idCliente: int
+    + Pagamentos()
+    + Pagamentos(int, double, String, int)
+    + getIdPagamento(): int
+    + getValorPago(): double
+    + getDestinoPago(): String
+    + getIdCliente(): int
+}
+
+Cliente "0..n" -- "0..n" Pacotes_de_Interesse : InteressadoEm
+Cliente "1" -- "0..n" Pagamentos : RealizaPagamento
+@enduml
+
