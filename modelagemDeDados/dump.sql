@@ -1,7 +1,7 @@
 CREATE DATABASE agenciaDeViagem;
 
 CREATE TABLE Cliente (
-    idCliente INT PRIMARY KEY,
+    idCliente INT AUTO_INCREMENT PRIMARY KEY,
     nomeCliente VARCHAR(255),
     cpfCliente VARCHAR(11),
     enderecoCliente VARCHAR(255),
@@ -10,7 +10,7 @@ CREATE TABLE Cliente (
 );
 
 CREATE TABLE Pacotes_de_Interesse (
-    idPacodeDeViagens INT PRIMARY KEY,
+    idPacodeDeViagens INT AUTO_INCREMENT PRIMARY KEY,
     destinos VARCHAR(255),
     precos DECIMAL(10, 2),
     idCliente INT,
@@ -18,7 +18,7 @@ CREATE TABLE Pacotes_de_Interesse (
 );
 
 CREATE TABLE Pagamentos (
-    idPagamento INT PRIMARY KEY,
+    idPagamento INT AUTO_INCREMENT PRIMARY KEY,
     valorPago DECIMAL(10, 2),
     destinoPago VARCHAR(255),
     idCliente INT,
