@@ -1,6 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    min-height: 100%;
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-viagem-realista-com-elementos_52683-77784.jpg?w=996&t=st=1697544263~exp=1697544863~hmac=c8440a2d8c4725da477d214ebe284bc628f80f417d2c760a3e4473638083ed35");
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center center;
+    background-clip: border-box;
     margin: 0;
     padding: 0;
 }
@@ -96,7 +101,7 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: #007BFF;
+    background-color: #ca8151;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -106,7 +111,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #573606;
 }
 
 .container_footer {
