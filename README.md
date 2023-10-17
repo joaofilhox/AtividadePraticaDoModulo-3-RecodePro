@@ -4,7 +4,7 @@
 ### Modelo conceitual e lógico do banco de dados:
 
 #### Modelo Conceitual
-![Captura de tela de 2023-10-11 20-22-36](https://github.com/joaofilhox/AtividadePraticaDoModulo-3-RecodePro/assets/117484929/2f1b2a19-4a21-4209-847e-1a22cfeb2b6c)
+![Captura de tela de 2023-10-17 08-27-30](https://github.com/joaofilhox/AtividadePraticaDoModulo-3-RecodePro/assets/117484929/4dfabec0-b8f1-4334-8df3-1f4776ddbf99)
 
 ### Modelo lógico
-![Captura de tela de 2023-10-11 20-27-46](https://github.com/joaofilhox/AtividadePraticaDoModulo-3-RecodePro/assets/117484929/d542d241-a5a1-46f9-a9ad-765aee33cd1d)
+![Captura de tela de 2023-10-17 08-25-39](https://github.com/joaofilhox/AtividadePraticaDoModulo-3-RecodePro/assets/117484929/86986b87-7c0a-4774-b550-cec4c62ecd38)
