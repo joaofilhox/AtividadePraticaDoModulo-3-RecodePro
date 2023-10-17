@@ -10,7 +10,7 @@ CREATE TABLE Cliente (
 );
 
 CREATE TABLE Pacotes_de_Interesse (
-    idPacodeDeViagens INT AUTO_INCREMENT PRIMARY KEY,
+    idPacoteDeViagens INT AUTO_INCREMENT PRIMARY KEY,
     destinos VARCHAR(255),
     precos DECIMAL(10, 2),
     idCliente INT,
