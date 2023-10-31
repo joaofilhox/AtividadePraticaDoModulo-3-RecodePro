@@ -20,26 +20,26 @@ class Pacotes_de_Interesse {
     - idPacoteDeViagens: int
     - destinos: String
     - precos: String
-    - idCliente: String
+    - idCliente: int
     + Pacotes_de_Interesse()
     + Pacotes_de_Interesse(int, String, String, String)
     + getIdPacoteDeViagens(): int
     + getDestinos(): String
     + getPrecos(): String
-    + getIdCliente(): String
+    + getIdCliente(): int
 }
 
 class Pagamentos {
     - idPagamento: int
     - valorPago: String
     - destinoPago: String
-    - idCliente: String
+    - idCliente: int
     + Pagamentos()
     + Pagamentos(int, String, String, String)
     + getIdPagamento(): int
     + getValorPago(): String
     + getDestinoPago(): String
-    + getIdCliente(): String
+    + getIdCliente(): int
 }
 
 
