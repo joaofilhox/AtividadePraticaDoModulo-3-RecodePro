@@ -22,7 +22,7 @@ class Pacotes_de_Interesse {
     - precos: String
     - idCliente: int
     + Pacotes_de_Interesse()
-    + Pacotes_de_Interesse(int, String, String, String)
+    + Pacotes_de_Interesse(int, String, String, int)
     + getIdPacoteDeViagens(): int
     + getDestinos(): String
     + getPrecos(): String
@@ -35,7 +35,7 @@ class Pagamentos {
     - destinoPago: String
     - idCliente: int
     + Pagamentos()
-    + Pagamentos(int, String, String, String)
+    + Pagamentos(int, String, String, int)
     + getIdPagamento(): int
     + getValorPago(): String
     + getDestinoPago(): String
